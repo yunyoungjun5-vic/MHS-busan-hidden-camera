@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://busansexcrime.mindgate.co.kr/sitemap.xml
