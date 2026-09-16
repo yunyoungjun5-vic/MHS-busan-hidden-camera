@@ -190,7 +190,7 @@ export const SubstanceLabLandingPage: React.FC = () => {
     {
       id: 0,
       num: '01',
-      title: '18년 이상 성범죄 심리상담 임상 경험',
+      title: '25년 이상의 심리상담 임상경험',
       desc: '성범죄 및 성문제 행동에 대한 오랜 상담경험을 토대로 사건만이 아니라 행동을 만들어낸 심리적 구조와 재범위험을 함께 분석합니다.'
     },
     {
@@ -262,7 +262,7 @@ export const SubstanceLabLandingPage: React.FC = () => {
             </a>
             <a href="#projects" className="px-3 py-1.5 rounded-full hover:text-black hover:bg-black/5 transition-colors duration-300 whitespace-nowrap">
               전문영역
-              <sup className="text-[#42A85D] ml-0.5 text-xs">18+</sup>
+              <sup className="text-[#42A85D] ml-0.5 text-xs">25+</sup>
             </a>
             <a href="#notes" className="px-3 py-1.5 rounded-full hover:text-black hover:bg-black/5 transition-colors duration-300 whitespace-nowrap">
               재범방지
@@ -369,14 +369,14 @@ export const SubstanceLabLandingPage: React.FC = () => {
         {/* manifesto */}
         <div className="relative z-10 flex-1 flex items-end">
           <div className="max-w-7xl mx-auto w-full px-5 sm:px-10 pb-[22vw] sm:pb-[18vw] lg:pb-[15vw] pt-32 sm:pt-40">
-            <div className="max-w-2xl" data-reveal="">
+            <div className="max-w-2xl lg:max-w-4xl" data-reveal="">
               <p className="text-[11px] sm:text-xs uppercase tracking-[0.2em] sm:tracking-[0.25em] text-[#1E4D33] font-medium mb-5 sm:mb-8" data-reveal="">
-                BUSAN · DIGITAL SEXUAL OFFENSE · 18+ YEARS
+                BUSAN · DIGITAL SEXUAL OFFENSE · 25+ YEARS
               </p>
-              <h1 className="font-['Space_Grotesk'] text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.08] sm:leading-[0.98] text-[#12281A] font-light tracking-tighter mb-6 sm:mb-8" data-reveal-words="true">
-                18년 이상의 경험,
+              <h1 className="font-['Space_Grotesk'] text-4xl sm:text-6xl md:text-7xl lg:text-[4.75rem] xl:text-[5.5rem] leading-[1.08] sm:leading-[1.02] text-[#12281A] font-light tracking-tighter mb-6 sm:mb-8" data-reveal-words="true">
+                <span className="inline-block sm:whitespace-nowrap">25년 이상의 노하우,</span>
                 <br />
-                법적 절차의 이해,
+                <span className="inline-block sm:whitespace-nowrap">법적 절차의 이해,</span>
                 <br />
                 변화를 보여주는{' '}
                 <em className="font-['Instrument_Serif'] italic font-normal inline-block pb-[0.05em]">
@@ -567,9 +567,9 @@ export const SubstanceLabLandingPage: React.FC = () => {
             <div data-reveal="">
               <p className="text-xs text-[#42A85D] font-medium mb-2">CLINICAL EXPERIENCE</p>
               <h3 className="font-['Space_Grotesk'] text-2xl sm:text-4xl font-light tracking-tighter text-white">
-                18년 이상
+                25년 이상
                 <br />
-                성범죄 심리상담 전문
+                심리상담 임상경험
               </h3>
               <p className="text-sm sm:text-base text-white/70 mt-3 max-w-md leading-relaxed">
                 다양한 성범죄 사건의 상담 경험을 토대로 사건과 심리, 재범위험과 변화과정을 함께 살펴봅니다.
@@ -577,7 +577,7 @@ export const SubstanceLabLandingPage: React.FC = () => {
             </div>
             <div className="flex flex-wrap gap-2 text-xs text-white/70" data-reveal="" style={{ transitionDelay: '150ms' }}>
               <span className="border border-white/20 rounded-full px-3 py-1 bg-black/30 backdrop-blur-sm">
-                18+ YEARS OF CLINICAL EXPERIENCE
+                25+ YEARS OF CLINICAL EXPERIENCE
               </span>
             </div>
           </div>
@@ -734,7 +734,7 @@ export const SubstanceLabLandingPage: React.FC = () => {
             </blockquote>
             <div className="mt-6 sm:mt-8" data-reveal="" style={{ transitionDelay: '300ms' }}>
               <p className="text-base sm:text-lg font-semibold text-[#12281A]">대표 원장 윤영준</p>
-              <p className="text-xs sm:text-sm text-black/50 mt-1">성범죄 심리상담 18년 이상 · 재범방지교육 · 법원 제출 상담의견</p>
+              <p className="text-xs sm:text-sm text-black/50 mt-1">심리상담 25년 이상 · 재범방지교육 · 법원 제출 상담의견</p>
               <p className="text-[10px] sm:text-xs uppercase tracking-widest text-[#1E4D33] font-medium mt-2 sm:mt-3">SEXUAL OFFENSE COUNSELING SPECIALIST</p>
             </div>
           </div>
@@ -893,19 +893,19 @@ export const SubstanceLabLandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-5 sm:px-10 py-10 sm:py-14 space-y-8">
           {/* Top Row: Brand & Nav Links */}
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-black/10">
-            <div className="flex items-center gap-2.5">
-              <span className="grid grid-cols-3 gap-[2.5px]">
-                <span className="w-1 h-1 rounded-full bg-[#42A85D]"></span>
-                <span className="w-1 h-1 rounded-full bg-black/60"></span>
-                <span className="w-1 h-1 rounded-full bg-black/30"></span>
-                <span className="w-1 h-1 rounded-full bg-black/60"></span>
-                <span className="w-1 h-1 rounded-full bg-black/30"></span>
-                <span className="w-1 h-1 rounded-full bg-black/60"></span>
-                <span className="w-1 h-1 rounded-full bg-black/30"></span>
-                <span className="w-1 h-1 rounded-full bg-black/60"></span>
-                <span className="w-1 h-1 rounded-full bg-[#42A85D]"></span>
+            <div className="flex items-center gap-3 sm:gap-3.5">
+              <span className="grid grid-cols-3 gap-1 sm:gap-1.5 p-1.5 rounded-lg bg-black/[0.03] border border-black/5 shrink-0">
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-[#42A85D]"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/70"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/30"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/70"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/30"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/70"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/30"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-black/70"></span>
+                <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-[#42A85D]"></span>
               </span>
-              <span className="font-['Space_Grotesk'] font-semibold text-sm sm:text-base tracking-tight text-slate-900">
+              <span className="font-['Space_Grotesk'] font-bold text-base sm:text-lg tracking-tight text-slate-900">
                 부산불법촬영·카촬죄 재범방지 심리상담센터
               </span>
             </div>
